@@ -1,0 +1,5 @@
+model,total_feature_count,te_feature_count,private_score,public_score,description
+ft_transformer_v2_52,52,39,0.95066,0.95054,Original FT-Transformer v2 with fixed inverse-prior correction
+safe46_categorical_reference_dropped,46,33,0.95066,0.95061,Drop the at-risk TE reference only for six categorical features
+aggressive37_without_bmi,37,24,0.95067,0.95044,Drop all at-risk TE columns and the remaining BMI TE group
+classwise_4_model_ensemble,,,0.95065,0.95086,Previous four-model class-wise ensemble

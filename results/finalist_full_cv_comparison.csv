@@ -1,0 +1,9 @@
+experiment,candidate,balanced_accuracy,at_risk_recall,fit_recall,unhealthy_recall,te_feature_count,total_feature_count,oof_logloss
+safe46_categorical_reference_dropped,safe46_categorical_reference_dropped_raw_argmax,0.891826,0.989252,0.844409,0.841816,33,46,0.087019
+safe46_categorical_reference_dropped,safe46_categorical_reference_dropped_fixed_inverse_prior,0.950520,0.937503,0.949552,0.964503,33,46,0.087019
+safe46_categorical_reference_dropped,safe46_categorical_reference_dropped_prior_beta_crossfit,0.950449,0.936177,0.949627,0.965543,33,46,0.087019
+safe46_categorical_reference_dropped,safe46_categorical_reference_dropped_unrestricted_multiplier_crossfit,0.950372,0.936606,0.949954,0.964555,33,46,0.087019
+aggressive37_without_bmi,aggressive37_without_bmi_raw_argmax,0.892500,0.989117,0.846343,0.842041,24,37,0.087085
+aggressive37_without_bmi,aggressive37_without_bmi_fixed_inverse_prior,0.950479,0.936695,0.949753,0.964989,24,37,0.087085
+aggressive37_without_bmi,aggressive37_without_bmi_prior_beta_crossfit,0.950385,0.937127,0.949627,0.964400,24,37,0.087085
+aggressive37_without_bmi,aggressive37_without_bmi_unrestricted_multiplier_crossfit,0.950403,0.936975,0.949627,0.964607,24,37,0.087085

@@ -1,0 +1,3 @@
+experiment,candidate,balanced_accuracy,at_risk_recall,fit_recall,unhealthy_recall,te_feature_count,total_feature_count,oof_logloss
+safe46_categorical_reference_dropped,safe46_categorical_reference_dropped_fixed_inverse_prior,0.950520,0.937503,0.949552,0.964503,33,46,0.087019
+aggressive37_without_bmi,aggressive37_without_bmi_fixed_inverse_prior,0.950479,0.936695,0.949753,0.964989,24,37,0.087085
