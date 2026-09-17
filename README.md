@@ -35,6 +35,8 @@ Kaggle **Predicting Student Health Risk (Playground Series S6E7)** 프로젝트�
    - 범주형 TE의 확률합 중복성과 연속형 TE의 fallback 동작을 별도로 점검
    - 52개 feature 기준 모델과 46개·39개·37개 축소 후보 비교
    - screening 상위 후보인 Safe46과 Aggressive37을 동일한 full CV로 최종 비교
+     - **Safe46:** 확률합 중복이 확인된 범주형 변수에서만 `at-risk` TE를 제거한 보수적 축소안(총 46개 feature)
+     - **Aggressive37:** 모든 변수의 `at-risk` TE와 BMI 기반 TE 전체를 제거한 공격적 축소안(총 37개 feature)
 
 ## Key Results
 
